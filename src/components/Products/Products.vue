@@ -154,9 +154,6 @@ a {
   background-color: #eb6d2f;
   color: #fff;
 }
-/* h2[data-v-6d43a64f] {
-    color: #fff; 
-    } */
 
 .content .row {
   margin: auto;

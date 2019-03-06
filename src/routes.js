@@ -9,6 +9,12 @@ import Bees from './components/Products/Bees/Bees.vue';
 import Tools from './components/Products/Tools/Tools.vue';
 
 import SubHeader from './components/shared/SubHeader.vue';
+import AdminDashboard from './components/Admin/AminDashboard.vue';
+import AddNewProduct from './components/Admin/AddNewProduct.vue';
+import LogIN from './components/Admin/LogIN.vue';
+
+
+
 
 export const routes = [
     { path: '/', component: Home },
@@ -21,4 +27,7 @@ export const routes = [
     { path: '/Bees', component: Bees },
     { path: '/Tools', component: Tools },
     { path: '/Subheader', component: SubHeader },
+    { path: '/AdminDashboard', component: AdminDashboard },
+    { path: '/AddNewProduct', component: AddNewProduct },
+    { path: '/LogIN', component: LogIN },
 ]
